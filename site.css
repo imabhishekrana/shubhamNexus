@@ -1,0 +1,388 @@
+                        * {
+                        padding: 0;
+                        margin: 0;
+                        text-decoration: none;
+                        list-style: none;
+                    }
+                    
+                    .navbar {
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        position: sticky;
+                        top: 0;
+                    }
+                    
+                    nav {
+                        height: 80px;
+                        width: 100%;
+                        background: #34495e;
+                    }
+                    
+                    label.logo {
+                        font-size: 35px;
+                        font-weight: bold;
+                        color: white;
+                        padding: 0 100px;
+                        line-height: 80px;
+                    }
+                    
+                    nav ul {
+                        float: right;
+                        margin-right: 40px;
+                    }
+                    
+                    nav li {
+                        display: inline-block;
+                        margin: 0 8px;
+                        line-height: 80px;
+                    }
+                    
+                    nav a {
+                        color: white;
+                        font-size: 18 px;
+                        text-transform: uppercase;
+                        border: 1px solid transparent;
+                        padding: 7px 10px;
+                        border-radius: 3px;
+                    }
+                    
+                    a.active,
+                    a:hover {
+                        border: 1px solid white;
+                        transition: 0.5s;
+                    }
+                    
+                    nav #icon {
+                        color: white;
+                        font-size: 30px;
+                        line-height: 80px;
+                        float: right;
+                        margin-right: 40px;
+                        cursor: pointer;
+                    }
+                    
+                    .btno {
+                        padding: 8px 20px;
+                        border: 2px solid white;
+                        background: none;
+                        color: white;
+                        cursor: pointer;
+                        border-radius: 26px;
+                    }
+                    
+                    .btno:hover {
+                        background: tomato;
+                        color: black;
+                    }
+                    
+                    .dark {
+                        color: black;
+                        border: 2px solid black;
+                        margin-left: 50%;
+                    }
+                    
+                    .background {
+                        background: rgba(0, 0, 0, 0.6)url(SPACE.jpg);
+                        background-size: cover;
+                        background-blend-mode: darken;
+                    }
+                    /*background ko box me band kar diya*/
+                    
+                    .boxmain {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        font-family: 'Times New Roman', Times, serif;
+                        max-width: 50%;
+                        margin: auto;
+                    }
+                    /*whole background ko page me fit kar diya*/
+                    
+                    .firstsection {
+                        height: 100vh;
+                    }
+                    
+                    .fisthalf {
+                        width: 65%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        max-height: 65%;
+                    }
+                    
+                    .secondhalf {
+                        width: 30%;
+                        padding-top: 30%;
+                    }
+                    
+                    .secondhalf img {
+                        border: 4px solid white;
+                        border-radius: 50%;
+                        display: block;
+                        margin: auto;
+                        width: 250PX;
+                    }
+                    
+                    .textbig {
+                        font-size: 25px;
+                        padding-top: 50%;
+                        color: white;
+                    }
+                    
+                    .textsmall {
+                        font-size: 18px;
+                        color: white;
+                    }
+                    
+                    .section {
+                        height: 500px;
+                        display: flex;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        max-width: 80%;
+                        margin: auto;
+                        font-family: 'Ubuntu', sans-serif;
+                    }
+                    
+                    .left {
+                        height: 400px;
+                        flex-direction: row-reverse;
+                        display: flex;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        max-width: 80%;
+                        margin: auto;
+                    }
+                    
+                    .sectiontag {
+                        padding: 16px 0px;
+                        color: white;
+                    }
+                    
+                    .sectionsubtag {
+                        color: white;
+                    }
+                    
+                    .textbigp {
+                        font-size: 30px;
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    }
+                    
+                    .textsmallp {
+                        font-size: 18px;
+                    }
+                    
+                    .paras {
+                        padding: 0px 65px;
+                    }
+                    
+                    .thumbnail img {
+                        width: 250px;
+                        border: 2px solid white;
+                        border-radius: 25px;
+                    }
+                    
+                    .color {
+                        background-color: rgba(0, 0, 0, 0.6);
+                    }
+                    /*contact*/
+                    
+                    .contact {
+                        height: 100vh;
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-start;
+                        background: rgba(0, 0, 0, 0.4);
+                    }
+                    
+                    .contactform {
+                        width: 80vw;
+                        display: flex;
+                        justify-content: space-between;
+                        background: white;
+                        margin: 30px 0;
+                    }
+                    
+                    .contactform>* {
+                        width: 50%;
+                    }
+                    
+                    .contactform .firstcontainer {
+                        background: linear-gradient(45deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(earth-1756274__340.webp) center center/cover no-repeat;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .contactform .firstcontainer .infocontainer div {
+                        margin: 24px 0;
+                    }
+                    
+                    .contactform .firstcontainer.infocontainer div {
+                        color: white;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 1.2;
+                        padding-bottom: 10px;
+                    }
+                    
+                    .co {
+                        color: white;
+                    }
+                    
+                    .contactform .firstcontainer.infocontainer div {
+                        font-size: 16px;
+                        line-height: 1.6;
+                        color: green;
+                    }
+                    
+                    .cp {
+                        color: #00ad50;
+                    }
+                    
+                    .cp1 {
+                        max-width: 260px;
+                        color: white;
+                    }
+                    
+                    .contactform .secondcontainer {
+                        padding: 30px;
+                    }
+                    
+                    .contactform .secondcontainer form {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    
+                    .contactform .secondcontainer h2 {
+                        font-size: 30px;
+                        font-weight: 400;
+                        color: #333;
+                        line-height: 1.2;
+                        text-align: center;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .contactform .secondcontainer form .formgroup {
+                        margin-bottom: 10px;
+                    }
+                    
+                    .contactform .secondcontainer form .formgroup {
+                        min-height: 55px;
+                        border: 1px solid white;
+                        padding: 0 20px;
+                    }
+                    
+                    .contactform .secondcontainer form .formgroup label {
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        border: 1px solid grey;
+                        font-size: 20px;
+                        color: #333;
+                        text-transform: uppercase;
+                        margin-top: -1px;
+                    }
+                    
+                    .contactform .secondcontainer form .formgroup .input1 {
+                        width: 50%;
+                        margin-right: -5px;
+                    }
+                    
+                    .contactform .secondcontainer form .formgroup .input {
+                        width: 100%;
+                        font-size: 15px;
+                        margin-top: -2px;
+                    }
+                    
+                    .contactform .secondcontainer form .formgroup .textarea {
+                        width: 100%;
+                        min-height: 80px;
+                        resize: none;
+                        padding: 10px 20px;
+                        margin-top: -1px;
+                    }
+                    
+                    .contactform .secondcontainer form .btnc {
+                        width: 200px;
+                        height: 30px;
+                        background: #00ad50;
+                        font-size: 16px;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        border: none;
+                        position: relative;
+                        left: 100px;
+                        cursor: pointer;
+                        color: white;
+                    }
+                    
+                    .contactform .secondcontainer form .btnc:hover {
+                        background: #333;
+                    }
+                    
+                    @media screen and (max-width:1048px) {
+                        .contactform {
+                            width: 900vw;
+                        }
+                        @media screen and (max-width: 909px) {
+                            .contactform {
+                                flex-direction: column-reverse;
+                            }
+                            .contactform>* {
+                                width: 100%;
+                            }
+                            .contactform .firstcontainer {
+                                padding: 40px 0;
+                            }
+                        }
+                        @media(max-width:1048px) {
+                            label.logo {
+                                font-size: 32px;
+                                padding-left: 60px;
+                            }
+                            nav ul {
+                                margin-right: 20px;
+                            }
+                            nav a {
+                                font-size: 17px;
+                            }
+                        }
+                        @media(max-width:909px) {
+                            nav #icon {
+                                display: block;
+                            }
+                            nav ul {
+                                position: fixed;
+                                width: 100%;
+                                height: 100vh;
+                                background: #2f3640;
+                                top: 80px;
+                                left: -100%;
+                                transition: all .5s;
+                                text-align: center;
+                            }
+                            nav li {
+                                display: block;
+                                margin: 50px 0;
+                                line-height: 30px;
+                            }
+                            nav a {
+                                font-size: 20px;
+                            }
+                            a.active,
+                            a.hover {
+                                border: none;
+                                color: #3498db;
+                            }
+                        }
+                        @media (max-width:1048px) {
+                            .boxmain {
+                                flex-direction: column-reverse;
+                                max-width: 100%;
+                            }
+                            .secondhalf {
+                                margin-left: 50%;
+                                margin-top: 80%;
+                            }
+                        }
